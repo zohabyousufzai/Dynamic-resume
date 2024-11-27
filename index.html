@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resume Builder</h1>
+    <form id="resume-form">
+        <fieldset>
+        <br>
+        <legend>Personal Information</legend>
+        <br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g Zahab Yousufzai" required>
+
+        <label for="email">Email Address</label>
+        <input type="text" id="email" name="email" placeholder="e.g zohab572@gmail.com" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="e.g +92 0333-1234567" required>
+        <br>
+        </fieldset>
+
+
+        <fieldset>
+            <br>
+            <legend>Education</legend>
+            <br>
+
+            <label for="education-degree">Degree</label>
+            <input type="text" id="education-degree" name="education-degree" placeholder="e.g BS Computer Science" required>
+    
+            <label for="institution">Institution</label>
+            <input type="text" id="institution" name="institution" placeholder="e.g University Of Karachi" required>
+    
+            <label for="graduation">Graduation</label>
+            <input type="text" id="graduation" name="graduation" placeholder="e.g 2022" required>
+    
+            <br>
+            </fieldset>
+
+
+            <fieldset>
+                <br>
+                <legend>Work Experience</legend>
+                <br>
+    
+                <label for="experience">Job Title</label>
+                <input type="text" id="experience" name="experience" placeholder="e.g Software Developer " required>
+        
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company" placeholder="e.g Honda Pakistan" required>
+        
+                <label for="description">Work Description</label>
+                <textarea name="description" id="description" rows="4" placeholder="Describe Your Role" required>
+                </textarea>
+        
+                <br>
+                </fieldset>
+
+
+                <fieldset>
+                    <br>
+                    <legend>Skills</legend>
+                    <br>
+        
+                    <label for="skills">Skills</label>
+                    <input type="text" id="skills" name="skills" placeholder="e.g Python,oracle,Javascript" required>
+            
+            
+                    <br>
+                    </fieldset>
+
+                    <br>
+
+                    <button type="button" onclick="generateResume()">Generate Resume</button>
+        
+    </form>
+
+    <section id="resume-output"></section>
+    <script src="script.js"></script>
+
+</body>
+</html>

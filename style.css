@@ -1,0 +1,285 @@
+/* General Reset */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+
+
+/* Body Styling */
+
+body {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: #f7f9fc;
+
+    color: #333;
+    
+
+}
+
+
+/* Page Title */
+
+h1 {
+
+    margin-bottom: 20px;
+
+    color: #3a3d98;
+
+    font-size: 2em;
+
+    font-weight: 700;
+
+}
+
+
+/* Form Container */
+
+form {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    background-color: #ffffff;
+
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+    margin-bottom: 30px;
+
+    transition: transform 0.3s ease;
+
+}
+
+
+form:hover {
+
+    transform: scale(1.02);
+
+}
+
+
+fieldset {
+
+    border: none;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    background-color: #f2f5fc;
+
+    margin-bottom: 15px;
+
+}
+
+
+legend {
+
+    padding: 0 10px;
+
+    font-weight: bold;
+
+    color: #3a3d98;
+
+    font-size: 1.2em;
+
+}
+
+
+/* Label and Input Styles */
+
+label {
+
+    display: block;
+
+    margin-top: 15px;
+
+    font-weight: bold;
+
+    color: #333;
+
+    font-size: 1em;
+
+}
+
+
+input[type="text"],
+
+input[type="email"],
+
+input[type="tel"],
+
+input[type="number"],
+
+textarea {
+
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 5px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 1em;
+
+    color: #333;
+
+    background-color: #f7f9fc;
+
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+
+}
+
+
+input:focus,
+
+textarea:focus {
+
+    border-color: #3a3d98;
+
+    background-color: #ffffff;
+
+    outline: none;
+
+}
+
+
+textarea {
+
+    resize: vertical;
+
+    min-height: 80px;
+
+}
+
+
+button {
+
+    width: 100%;
+
+    padding: 15px;
+
+    background-color: #3a3d98;
+
+    color: #ffffff;
+
+    border: none;
+
+    border-radius: 8px;
+
+    font-size: 1.1em;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    margin-top: 20px;
+
+}
+
+
+button:hover {
+
+    background-color: #2f358a;
+
+    transform: translateY(-2px);
+
+}
+
+
+button:active {
+
+    background-color: #28307a;
+
+    transform: translateY(1px);
+
+}
+
+
+/* Resume Output Styling */
+
+#resume-output {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    background-color: #ffffff;
+
+    border: 2px solid #ddd;
+
+    border-radius: 10px;
+
+    padding: 25px;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+
+}
+
+
+#resume-output h2 {
+
+    color: #3a3d98;
+
+    font-size: 1.8em;
+
+    margin-bottom: 10px;
+
+    font-weight: bold;
+
+}
+
+
+#resume-output p {
+
+    color: #555;
+
+    line-height: 1.6;
+
+    margin: 8px 0;
+
+}
+
+
+#resume-output h3 {
+
+    color: #3a3d98;
+
+    margin-top: 15px;
+
+    margin-bottom: 8px;
+
+    font-size: 1.3em;
+
+    font-weight: bold;
+
+}
+
